@@ -6,5 +6,13 @@ function noClicked() {
         size += 6;
         btn.style.fontSize = size + "px";
     };
+
+    const btnNo = document.getElementById("no");
+
+    btnNo.onclick = () => {
+        size -= 3;
+        btn.style.fontSize = size + "px";
+    };
+
 }
 
