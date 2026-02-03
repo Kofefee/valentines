@@ -13,8 +13,8 @@ noBtn.addEventListener("click", () => {
     size += 6;
     yesBtn.style.fontSize = size + "px";
 
-    gifWaiting.style.display = "block";
-    gifYes.style.display = "none";
+    gifWaiting.style.opacity = "1";
+    gifYes.style.opacity = "0";
 
     yesBtn.classList.add("wiggle");
     setTimeout(() => yesBtn.classList.remove("wiggle"), 300);
@@ -23,8 +23,8 @@ noBtn.addEventListener("click", () => {
 yesBtn.addEventListener("click", () => {
     title.innerHTML = "YAAAY 💕🥰 I knew it!";
 
-    gifWaiting.style.display = "none";
-    gifYes.style.display = "block";
+    gifWaiting.style.opacity = "0";
+    gifYes.style.opacity = "1";
 
     noBtn.style.display = "none";
     yesBtn.style.transform = "scale(1.3)";

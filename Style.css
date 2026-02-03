@@ -30,7 +30,30 @@ img {
 }
 
 #gif-yes {
-    display: none;
+    opacity: 0;
+}
+
+#gif-waiting {
+    opacity: 1;
+}
+
+
+
+.gif-container {
+    width: 250px;
+    height: 250px;          /* feste Höhe → kein Springen */
+    margin: 30px auto;
+    position: relative;
+}
+
+.gif-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+    position: absolute;    /* liegen exakt übereinander */
+    top: 0;
+    left: 0;
 }
 
 .wiggle {
