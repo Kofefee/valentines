@@ -24,6 +24,15 @@ button {
     background-color: #ccc;
 }
 
+img {
+    width: 250px;
+    margin-top: 30px;
+}
+
+#gif-yes {
+    display: none;
+}
+
 .wiggle {
     animation: wiggle 0.3s;
 }
@@ -35,3 +44,4 @@ button {
     75% { transform: rotate(-5deg); }
     100% { transform: rotate(0deg); }
 }
+
