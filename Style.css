@@ -14,12 +14,18 @@ h1 {
   text-align: center;
   background-color: green;
   font-size: 24px;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 #no {
   text-align: center;
   background-color: red;
   font-size: 10px;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 #buttons {
