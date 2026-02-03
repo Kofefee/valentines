@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: pink;
+    background: white;
     text-align: center;
     margin-top: 100px;
 }
@@ -15,7 +15,7 @@ button {
 }
 
 #yes {
-    background-color: white;
+    background-color: #ff4d6d;
     color: white;
     transition: transform 0.2s;
 }
