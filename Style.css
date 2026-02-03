@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: white;
     background: white;
     text-align: center;
     margin-top: 100px;
@@ -37,7 +38,9 @@ img {
     opacity: 1;
 }
 
-
+#title {
+    color: #ff4d6d;
+}
 
 .gif-container {
     width: 250px;
