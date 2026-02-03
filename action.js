@@ -1,4 +1,4 @@
-function no() {
+function noClicked() {
     const btn = document.getElementById("yes");
     let size = 24;
 
